@@ -11,4 +11,6 @@ arg[4]: RGB r (0-255)<br>
 arg[5]: RGB g (0-255)<br>
 arg[6]: RGB b (0-255)<br>
 
+ConvertImage.exe 1.png "90Q black.jpg" 90
+
 ps. Does not Accept UTF fileNames
