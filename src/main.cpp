@@ -93,10 +93,13 @@ arg[6]: RGB b (0-255)\n\
 	SDL_FillRect(surf, &tempRect, SDL_MapRGB(surf->format, settings_RGB_r, settings_RGB_g, settings_RGB_b ) );
 	SDL_BlitSurface(surf_image, NULL, surf, &tempRect);
 
-	IMG_SaveJPG(surf, path_out? path_out : ".jpg", settings_qual);
+	int retVal= IMG_SaveJPG(surf, ".-jpg", settings_qual);
+	retVal<< 16;
+	retVal+= rename( ".-jpg", path_out? path_out : ".jpg" );
+	if(retVal) printf("Unexpected error %i", retVal);
 
 	IMG_Quit();
 	SDL_Quit();
-	return EXIT_SUCCESS;
+	return retVal;
 }
 
