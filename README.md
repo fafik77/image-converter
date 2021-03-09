@@ -18,5 +18,5 @@ ps. Does not Accept UTF fileNames
 # test the Program 1.png
 the file "1.png" is provided solely for User testing purposes of The Program, it is not to be connected with The Program itself or its Source.
 
-# License
+# License: GNU License
 see the <a href="src/License.txt">src/License.txt</a>
