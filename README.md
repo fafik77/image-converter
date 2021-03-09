@@ -14,3 +14,9 @@ arg[6]: RGB b (0-255)<br>
 ConvertImage.exe 1.png "90Q black.jpg" 90
 
 ps. Does not Accept UTF fileNames
+
+# test the Program 1.png
+the file "1.png" is provided solely for User testing purposes of The Program, it is not to be connected with The Program itself or its Source.
+
+# License
+see the src/License.txt
