@@ -51,6 +51,9 @@ int main( int argc, char* argv[] )
 	readArgs( argc, argv );
 	if(! path_in){
 		printf("\
+Copyright (C) 2021 fafik77 ( https://github.com/fafik77 )\n\
+    This program comes with ABSOLUTELY NO WARRANTY; for details read 'License (ConvertImage).txt'.\n\
+    This is free software.\n\
 ! Does NOT work with UTF fileNames\n\
  instead please rename UTF file to ANSII !\n\
 \n\
